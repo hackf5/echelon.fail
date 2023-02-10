@@ -1,0 +1,23 @@
+{
+  "name": "echelon.fail",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npx @11ty/eleventy --input=./content --output=./site",
+    "serve": "npx @11ty/eleventy --input=./content --output=./site --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackf5/echelon.fail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackf5/echelon.fail/issues"
+  },
+  "homepage": "https://github.com/hackf5/echelon.fail#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}
