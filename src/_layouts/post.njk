@@ -1,17 +1,12 @@
+---
+date: git Last Modified
+tags: post
+permalink: "posts/{{ title | slugify }}"
+---
+
 {% extends "./base.njk" %}
+{% import "./fragments/post.njk" as p %}
 
 {% block content %}
-    <div class="post-image-container">
-        <div class="post-image">
-            {% image img,
-            imgAlt %}
-        </div>
-    </div>
-
-    {% block title %}
-        <h1>{{ title }}</h1>
-        <h2 class="post-subtitle">{{ subtitle }} @ {{ page.date.toLocaleDateString() }}</h2>
-    {% endblock %}
-
-    {{ super() }}
+    {{ p.post(title, subtitle, img, imgAlt, content, page) }}
 {% endblock %}

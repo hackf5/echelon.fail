@@ -136,6 +136,12 @@ blockquote {
   }
 }
 
+hr {
+  border: 0;
+  border-top: $spacing-xxs solid $color-on-primary-alt3;
+  margin: $spacing-md 0;
+}
+
 .post-subtitle {
   font-size: $text-md;
   margin-bottom: $spacing-md;
@@ -161,6 +167,7 @@ blockquote {
   object-fit: cover;
   object-position: center;
   overflow: hidden;
+  border: $color-on-primary-alt3 solid 5px;
 
   img {
     max-width: 100%;
@@ -168,4 +175,15 @@ blockquote {
     object-fit: cover;
     object-position: center;
   }
+}
+
+.home {
+  a {
+    color: $color-on-primary-alt;
+    text-decoration: none;
+  }
+}
+
+.home-posts {
+  margin: calc($spacing-lg * 2) 0;
 }

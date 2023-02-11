@@ -1,0 +1,13 @@
+{% macro post(title, subtitle, img, imgAlt, content, page) %}
+    <div class="post-image-container">
+        <div class="post-image">
+            {% image img,
+            imgAlt %}
+        </div>
+    </div>
+
+    <h1>{{ title }}</h1>
+    <h2 class="post-subtitle">{{ subtitle }} @ {{ page.date | formatDate }}</h2>
+
+    {{ content | safe }}
+{% endmacro %}
