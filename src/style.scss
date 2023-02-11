@@ -101,6 +101,8 @@ h1 {
 
 h2 {
   font-size: $text-xl;
+  margin-top: $spacing-lg;
+  margin-bottom: $spacing-md;
 }
 
 h3 {
@@ -119,6 +121,10 @@ strong {
 em {
   font-style: italic;
   color: $color-on-primary-alt2;
+}
+
+p {
+  margin: 0 0 $spacing-sm 0;
 }
 
 blockquote {
@@ -186,4 +192,8 @@ hr {
 
 .home-posts {
   margin: calc($spacing-lg * 2) 0;
+}
+
+.home-posts-item {
+  margin-bottom: $spacing-lg;
 }

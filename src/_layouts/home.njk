@@ -8,15 +8,16 @@ permalink: "/index.html"
 
 {% block content %}
     <div class="home">
-        {% set main = collections.post | first %}
+        {% set posts = collections.post | reverse  %}
+        {% set main = posts | first %}
         {{ p.post(main.data.title, main.data.subtitle,  main.data.img,  main.data.imgAlt,  main.data.content, main.page) }}
 
         <hr>
         <div class="home-posts">
             <h1>Latests Posts</h1>
             <ul >
-                {%- for post in collections.post.slice(0,10) -%}
-                    <li>
+                {%- for post in posts.slice(0,10) -%}
+                    <li class="home-posts-item">
                         <a href="{{ post.url }}">{{ post.data.title }} @ {{ post.page.date | formatDate }}</a>
                         <br>
                         <em>{{ post.data.subtitle }}</em>
