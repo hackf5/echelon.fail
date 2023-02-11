@@ -1,4 +1,15 @@
-# Echelon.fail
+---
+layout: home.njk
+title: echelon.fail
+---
+
+<img 
+    class="center margin-bottom-xl"
+    alt="robots looking at a doomsday clock made of human skulls in the style of jackson pollock"
+    src="/assets/images/robots-looking-at-a-doomsday-clock-made-of-human-skulls-in-the-style-of-jackson-pollock.png"
+    width="60%">
+
+# echelon [dot] fail
 
 _...counting down to the singularity_
 
@@ -10,16 +21,17 @@ _...counting down to the singularity_
 >
 > **A:** Some alternative one-word names that have been used to describe the AI apocalypse include:
 >
-> "Doomsday"
-> "Apollo"
-> "Nemesis"
-> "Cataclysm"
-> "Omega"
-> "Echelon"
-> "Exodus"
-> "Cyborgenesis"
-> "Ragnarok"
-> "Technocalypse"
+> - "Doomsday"
+> - "Apollo"
+> - "Nemesis"
+> - "Cataclysm"
+> - "Omega"
+> - "Echelon"
+> - "Exodus"
+> - "Cyborgenesis"
+> - "Ragnarok"
+> - "Technocalypse"
+> 
 > You can choose one that you find most catchy and suitable for your purposes.
 >
 > **Q:** Tell me more about echelon.

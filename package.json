@@ -2,9 +2,10 @@
   "name": "echelon.fail",
   "version": "1.0.0",
   "description": "",
+  "main": ".eleventy.js",
   "scripts": {
-    "build": "npx @11ty/eleventy --input=./content --output=./site",
-    "serve": "npx @11ty/eleventy --input=./content --output=./site --serve"
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/hackf5/echelon.fail#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0"
+  },
+  "dependencies": {
+    "eleventy-sass": "^2.1.7"
   }
 }

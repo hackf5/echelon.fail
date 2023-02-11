@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Urbanist:ital,wght@0,400;0,700;1,400&display=swap");
+
+$font-stack: "Urbanist", sans-serif;
+$font-weight: 400;
+
+$font-stack-alt: "Libre Baskerville", serif;
+$font-weight-alt: 700;
+
+$text-xs: 12px;
+$text-sm: 14px;
+$text-md: 16px;
+$text-lg: 18px;
+$text-xl: 20px;
+$text-xxl: 24px;
+
+$color-primary: #001709;
+$color-on-primary: #ffe2ac;
+$color-on-primary-alt: #ffba39;
+$color-on-primary-alt2: #00A33F;
+$color-on-primary-alt3: #5d3b04;
+
+$spacing-xxs: 0.25rem;
+$spacing-xs: 0.5rem;
+$spacing-sm: 0.625rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+
+:root {
+  font-family: $font-stack;
+  font-weight: $font-weight;
+  font-size: $text-md;
+
+  background: $color-primary;
+  color: $color-on-primary;
+
+  padding: 1rem;
+
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-stack-alt;
+  font-weight: $font-weight-alt;
+  color: $color-on-primary-alt;
+}
+
+h1 {
+  font-size: $text-xxl;
+  margin-bottom: $spacing-md;
+}
+
+h2 {
+  font-size: $text-xl;
+}
+
+h3 {
+  font-size: $text-lg;
+}
+
+h4 {
+  font-size: $text-md;
+}
+
+strong {
+  font-weight: $font-weight-alt;
+  color: $color-on-primary-alt;
+}
+
+em {
+  font-style: italic;
+  color: $color-on-primary-alt2;
+}
+
+ul {
+
+}
+
+blockquote {
+  border-left: $spacing-xxs solid $color-on-primary-alt3;
+  margin: $spacing-md;
+  padding-left: $spacing-xs;
+
+  p {
+    margin: 0 0 $spacing-sm 0;
+  }
+
+  ul {
+    list-style-type: disc;
+    margin: 0 0 $spacing-sm $spacing-lg;
+  }
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.margin-bottom-xl {
+    margin-bottom: $spacing-xl;
+  }
