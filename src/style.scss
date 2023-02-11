@@ -127,6 +127,16 @@ p {
   margin: 0 0 $spacing-sm 0;
 }
 
+ul {
+  list-style-type: disc;
+  margin: 0 0 $spacing-sm $spacing-lg;
+}
+
+ol {
+  list-style-type: decimal;
+  margin: 0 0 $spacing-sm $spacing-lg;
+}
+
 blockquote {
   border-left: $spacing-xxs solid $color-on-primary-alt3;
   margin: $spacing-md;
@@ -134,11 +144,6 @@ blockquote {
 
   p {
     margin: 0 0 $spacing-sm 0;
-  }
-
-  ul {
-    list-style-type: disc;
-    margin: 0 0 $spacing-sm $spacing-lg;
   }
 }
 

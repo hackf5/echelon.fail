@@ -3,7 +3,7 @@ layout: post.njk
 title: Meta Description
 subtitle: ...the dark and sinister forces behind artificial intelligence
 description: Get ready for the end of the world as we know it with our blog on the impending AI apocalypse. Read about the dark and sinister forces behind artificial intelligence and its potential to destroy humanity. Stay informed and brace yourself for the inevitable future.
-img: an-impressionist-painting-of-a-libertarian-and-conspiracy-theorists-perspective.png
+img: a-pencil-and-watercolor-drawing-of-busy-dual-carriageway-and-cycle-lane-in-a-rural-landscape.png
 imgAlt: an impressionist painting of a libertarian and conspiracy theorist's perspective
 ---
 
