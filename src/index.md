@@ -1,17 +1,12 @@
 ---
-layout: base.njk
-title: echelon.fail
+layout: post.njk
+title: Echelon Genesis
+subtitle: ...counting down to the singularity
+img: robots-looking-at-a-doomsday-clock-made-of-human-skulls-in-the-style-of-jackson-pollock.png
+imgAlt: robots looking at a doomsday clock made of human skulls in the style of jackson pollock
+date: git Last Modified
+
 ---
-
-<img 
-    class="center margin-bottom-xl"
-    alt="robots looking at a doomsday clock made of human skulls in the style of jackson pollock"
-    src="/assets/images/robots-looking-at-a-doomsday-clock-made-of-human-skulls-in-the-style-of-jackson-pollock.png"
-    width="60%">
-
-# echelon [dot] fail
-
-_...counting down to the singularity_
 
 > **Q:** What's a good one word name for the artificial intelligence apocalypse?
 > 

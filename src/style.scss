@@ -16,7 +16,7 @@ $text-xxl: 24px;
 $color-primary: #001709;
 $color-on-primary: #ffe2ac;
 $color-on-primary-alt: #ffba39;
-$color-on-primary-alt2: #00A33F;
+$color-on-primary-alt2: #00a33f;
 $color-on-primary-alt3: #5d3b04;
 
 $spacing-xxs: 0.25rem;
@@ -26,6 +26,15 @@ $spacing-md: 1rem;
 $spacing-lg: 1.5rem;
 $spacing-xl: 2rem;
 
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+$radius-sm: 5px;
+$radius-md: 10px;
+$radius-lg: 20px;
+
 :root {
   font-family: $font-stack;
   font-weight: $font-weight;
@@ -33,11 +42,45 @@ $spacing-xl: 2rem;
 
   background: $color-primary;
   color: $color-on-primary;
+}
 
-  padding: 1rem;
+header {
+  width: 100%;
+  background-color: $color-on-primary-alt3;
+  font-size: $text-sm;
 
-  max-width: 1024px;
+  nav {
+    max-width: $screen-lg;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $spacing-xs;
+
+    a {
+      color: $color-on-primary-alt;
+      text-decoration: none;
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  color: $color-on-primary-alt;
+  background-color: $color-on-primary-alt3;
+  font-size: $text-sm;
+
+  p {
+    max-width: $screen-lg;
+    margin: 0 auto;
+    padding: $spacing-xxs;
+  }
+}
+
+.content {
+  max-width: $screen-lg;
   margin: 0 auto;
+  padding: $spacing-md;
 }
 
 h1,
@@ -78,10 +121,6 @@ em {
   color: $color-on-primary-alt2;
 }
 
-ul {
-
-}
-
 blockquote {
   border-left: $spacing-xxs solid $color-on-primary-alt3;
   margin: $spacing-md;
@@ -97,11 +136,36 @@ blockquote {
   }
 }
 
-.center {
-  display: block;
-  margin: 0 auto;
+.post-subtitle {
+  font-size: $text-md;
+  margin-bottom: $spacing-md;
+  font-weight: $font-weight;
+  font-style: italic;
+  color: $color-on-primary-alt2;
 }
 
-.margin-bottom-xl {
-    margin-bottom: $spacing-xl;
+.post-image-container {
+  display: flex;
+  max-height: $screen-xs;
+  max-width: 100%;
+  justify-content: center;
+  margin-bottom: $spacing-lg;
+}
+
+.post-image {
+  display: inline-flex;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 45%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+
+  img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
+}
