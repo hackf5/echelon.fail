@@ -11,24 +11,37 @@
         <link rel="stylesheet" href="{{ "/reset.css" }}"/>
         <link rel="stylesheet" href="{{ "/style.css" }}"/>
         <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.9/dist/cookieconsent.css" media="print" onload="this.media='all'">
         <title>{{ title }} - {{ siteName }}</title>
     </head>
     <body>
         <header>
             <nav>
-                <a href="/">home</a>
-            </li>
-        </nav>
-    </header>
+                <a href="/">home</a> |
+                <a href="/posts/privacy-policy.html">privacy</a>
+            </nav>
+        </header>
 
-    <div class="content">
-        {% block content %}
-            {{ content | safe }}
-        {% endblock %}
-    </div>
+        <div class="content">
+            {% block content %}
+                {{ content | safe }}
+            {% endblock %}
+        </div>
 
-    <footer>
-        <p>© {{ currentYear }} - {{ siteName }}</p>
-    </footer>
-</body>
+        <footer>
+            <p>© {{ currentYear }} - {{ siteName }}</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.9/dist/cookieconsent.js" defer></script>
+        <script src="/assets/js/cookieconsent-init.js" defer></script>
+        <script type="text/plain" data-cookiecategory="analytics" src="https://www.googletagmanager.com/gtag/js?id=G-TGQMVM3K2Q" defer></script>
+        <script type="text/plain" data-cookiecategory="analytics">
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-TGQMVM3K2Q');
+        </script>
+    </body>
 </html>
