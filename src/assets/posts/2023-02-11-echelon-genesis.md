@@ -2,6 +2,7 @@
 layout: post.njk
 title: Echelon Genesis
 subtitle: ...counting down to the singularity
+description: Some experts believe that it is possible for AI to surpass human intelligence within the next few decades, while others believe that such an event may be centuries or even millennia away. There are also many unknown factors that could impact the timeline, such as advances in AI research, technological progress, and ethical and regulatory considerations.
 img: robots-looking-at-a-doomsday-clock-made-of-human-skulls-in-the-style-of-jackson-pollock.png
 imgAlt: robots looking at a doomsday clock made of human skulls in the style of jackson pollock
 ---

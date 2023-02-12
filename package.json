@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-img": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "eleventy-sass": "^2.1.7"
   }

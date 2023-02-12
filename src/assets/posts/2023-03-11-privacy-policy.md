@@ -4,6 +4,7 @@ title: Privacy Policy
 subtitle: ...cookies and stuff like cookies
 img: a-cookie-eating-a-padlock.png
 imgAlt: a cookie eating a padlock
+description: A privacy notice is an important document that provides transparency and accountability for the collection, use, and protection of personal data.
 ---
 
 Welcome to our website! We're happy to have you here, and we take your privacy seriously. That's why we want to be upfront about what we do with your information.
