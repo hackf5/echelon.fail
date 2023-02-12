@@ -4,7 +4,7 @@ title: "The Perfect Cheese Sandwich: A Guide to Gastronomic Delight"
 subtitle: "From the combination of ingredients to the perfect setting, learn how to create the ultimate cheese sandwich experience"
 description:  "Discover the secret to the perfect cheese sandwich, made with white English bread, medium mature English cheddar, salted Cornish butter, and plum and dandelion chutney. Learn how to serve it on Royal Doulton china in the shade of a Kentish oak, with a chilled glass of Kentish apple juice, for a gastronomic delight like no other."
 img: a-chedar-cheese-sandwich-on-white-bread-with-dandilion-chutney-and-a-glass-of-apple-juice.png
-imgAlt: a chedar cheese sandwich on white bread with dandilion chutney and a glass of apple juice
+imgAlt: a cheddar cheese sandwich on white bread with dandilion chutney and a glass of apple juice
 ---
 
 ## The Story of the Sandwich: A Tale as Old as Time
